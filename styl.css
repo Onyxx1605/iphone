@@ -1,0 +1,111 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+}
+
+/* Container to center content */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+.header {
+    background-color: #000;
+    color: white;
+    padding: 80px 0;
+}
+
+.header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+}
+
+.header .price {
+    font-size: 2rem;
+    color: #ff5722;
+    margin-bottom: 20px;
+}
+
+.header .description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button, .learn-more {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #ff5722;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover, .learn-more:hover {
+    background-color: #e64a19;
+}
+
+.learn-more {
+    background-color: #4CAF50;
+}
+
+.learn-more:hover {
+    background-color: #388e3c;
+}
+
+/* Features Section */
+.features {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.features ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+/* CTA Section */
+.cta {
+    background-color: #ffeb3b;
+    padding: 60px 0;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
